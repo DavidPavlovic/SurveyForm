@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.woff2?#iefix") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"); }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a9d7d1;
+  font-family: 'Lato-Regular'; }
+
+.title,
+.description {
+  text-align: center; }
+
+input,
+select {
+  height: 30px;
+  padding: 0 8px; }
+
+button {
+  width: 90px;
+  height: 35px;
+  border: none;
+  background: #59ace0;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 15px; }
+
+.group-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 18px; }
+  .group-container div:nth-child(1) {
+    padding-right: 18px;
+    text-align: right; }
+    @media (max-width: 500px) {
+      .group-container div:nth-child(1) {
+        text-align: left; } }
+
+.btn-container {
+  text-align: center; }
+
+form {
+  background-color: #fff;
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px; }
+
+.box {
+  width: 100%;
+  flex: 0 50%;
+  box-sizing: border-box; }
+  .box input[type="radio"],
+  .box input[type="checkbox"] {
+    width: 0;
+    height: 0; }
+  .box input,
+  .box textarea {
+    width: 260px; }
+  .box select {
+    width: 150px; }
+
+.req:before {
+  content: "*";
+  margin-right: 2px; }
+
+label {
+  max-width: 370px;
+  display: inline-block; }
+
+@media screen and (max-width: 500px) {
+  .box {
+    flex: 0 100%; } }
+
+/*# sourceMappingURL=main.css.map */
